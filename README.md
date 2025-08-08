@@ -63,10 +63,14 @@ This dataset is located in the root directory as `electricity_data.csv`.
     Scikit-learn
 
 ## UI Previwe
-Input Page – Enter hour, temperature, appliance usage, season, and humidity.
+### Input Page 
+Enter hour, temperature, appliance usage, season, and humidity.
+
 ![input](image-1.png)
 
-Output Page – Displays the predicted electricity consumption in kWh.
+### Output Page 
+Displays the predicted electricity consumption in kWh.
+
 ![output](image-2.png)
 
 Author
