@@ -68,5 +68,6 @@ Input Page – Enter hour, temperature, appliance usage, season, and humidity.
 
 Output Page – Displays the predicted electricity consumption in kWh.
 ![output](image-2.png)
+
 Author
 Developed by R.DHARANI SRI
