@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electricity Consumption Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Electricity Consumption Predictor ⚡</h1>
+        <form action="/predict" method="post">
+            <label>Hour of Day:</label>
+            <input type="number" name="hour" min="0" max="23" required><br>
+            
+            <label>Temperature (°C):</label>
+            <input type="number" name="temperature" step="0.1" required><br>
+
+            <label>Appliance Usage (Watts):</label>
+            <input type="number" name="appliance_usage" required><br>
+
+            <label>Season:</label>
+            <select name="season">
+                <option value="summer">Summer</option>
+                <option value="winter">Winter</option>
+                <option value="monsoon">Monsoon</option>
+            </select><br>
+
+            <label>Humidity (%):</label>
+            <input type="number" name="humidity" step="0.1" required><br>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
